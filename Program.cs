@@ -11,7 +11,7 @@ namespace ConsoleApp1
             int width;
             int height;
             bool on = false;
-            string random_symbol = "1234567890ETAOINSHRDLCUMWFGYPBVKXJQZ/-+=/][.,";
+            string randomSymbol = "1234567890ETAOINSHRDLCUMWFGYPBVKXJQZ/-+=/][.,";
             width = Console.WindowWidth;
             height = Console.WindowHeight;
             Console.ForegroundColor = ConsoleColor.Green;
@@ -33,7 +33,7 @@ namespace ConsoleApp1
             while (on){
                 for (int i = 0; i < 10; i++){
                     Console.SetCursorPosition(rand.Next(0, width), rand.Next(0, height));
-                    Console.WriteLine(random_symbol[rand.Next(0, 45)]);
+                    Console.WriteLine(randomSymbol[rand.Next(0, 45)]);
                 }
                 for (int i = 0; i < 20; i++){
                     Console.SetCursorPosition(rand.Next(0, width), rand.Next(0, height));
