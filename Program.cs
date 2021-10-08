@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Threading;
-
+//task 2
 namespace ConsoleApp1
 {
     class Program
